@@ -40,7 +40,7 @@ body {
 	line-height: 8px;
 }
 
-#mainbox a {
+#mainbox a:link {
 	color: #ffffff;
 	font-size: 15px;
 	opacity: 0.75;
