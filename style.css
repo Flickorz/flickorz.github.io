@@ -1,0 +1,134 @@
+/* 
+Custom site by Flickorz
+*/
+@import url("http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,900");
+
+body {
+	background: url(/images/bgrep.jpg) repeat;
+	color: white;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+/* Main Box */
+@-moz-keyframes mainbox { 0% { opacity: 0; } 100% { opacity: 1; } }
+@-webkit-keyframes mainbox { 0% { opacity: 0; } 100% { opacity: 1; } }
+@-o-keyframes mainbox { 0% { opacity: 0; } 100% { opacity: 1; } }
+@-ms-keyframes mainbox { 0% { opacity: 0; } 100% { opacity: 1; } }
+@keyframes mainbox { 0% { opacity: 0; } 100% { opacity: 1; } }
+
+#mainbox {
+	-moz-animation: mainbox 6s forwards;
+	-webkit-animation: mainbox 6s forwards;
+	-o-animation: mainbox 6s forwards;
+	-ms-animation: mainbox 6s forwards;
+	animation: mainbox 6s forwards;
+	width: 600px;
+	height: 280px;
+	position: fixed;
+	top: 25%;
+	left: 50%;
+	margin-top: -80px;
+	margin-left: -300px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+#mainbox h1 {
+	font-size: 86px;
+	font-weight: 900;
+	letter-spacing: -3px;
+	line-height: 8px;
+}
+
+#mainbox p {
+	font-size: 23px;
+	margin: 12px 0 4px 0;
+	opacity: 0.75;
+}
+
+#mainbox nav {
+	margin: 24px 0 0 0;
+}
+
+/* Nav Icons */
+
+@-moz-keyframes navli { 0% { opacity: 0; } 100% { opacity: 1; } }
+@-webkit-keyframes navli { 0% { opacity: 0; } 100% { opacity: 1; } }
+@-o-keyframes navli { 0% { opacity: 0; } 100% { opacity: 1; } }
+@-ms-keyframes navli { 0% { opacity: 0; } 100% { opacity: 1; } }
+@keyframes navli { 0% { opacity: 0; } 100% { opacity: 1; } }
+
+#mainbox nav li {
+	-moz-animation: navli 6s forwards;
+	-webkit-animation: navli 6s forwards;
+	-o-animation: navli 6s forwards;
+	-ms-animation: navli 6s forwards;
+	animation: navli 6s forwards;
+	display: inline;
+	margin: 20px;		
+}
+
+#mainbox nav li:nth-child(1) {
+	-moz-animation-delay: 2.5s;
+	-webkit-animation-delay: 2.5s;
+	-o-animation-delay: 2.5s;
+	-ms-animation-delay: 2.5s;
+	animation-delay: 2.5s;
+	margin-left: -20px;	
+}
+
+#mainbox nav li:nth-child(2) {
+	-moz-animation-delay: 2.75s;
+	-webkit-animation-delay: 2.75s;
+	-o-animation-delay: 2.75s;
+	-ms-animation-delay: 2.75s;
+	animation-delay: 2.75s;
+}
+
+#mainbox nav li:nth-child(3) {
+	-moz-animation-delay: 3s;
+	-webkit-animation-delay: 3s;
+	-o-animation-delay: 3s;
+	-ms-animation-delay: 3s;
+	animation-delay: 3s;
+}
+
+#mainbox nav li:nth-child(4) {
+	-moz-animation-delay: 3.25s;
+	-webkit-animation-delay: 3.25s;
+	-o-animation-delay: 3.25s;
+	-ms-animation-delay: 3.25s;
+	animation-delay: 3.25s;
+}
+
+#footer {
+	background-image: -moz-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.5) 75%);
+	background-image: -webkit-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.5) 75%);
+	background-image: -o-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.5) 75%);
+	background-image: -ms-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.5) 75%);
+	background-image: linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.5) 75%);
+	bottom: 0;
+	cursor: default;
+	height: 6em;
+	left: 0;
+	line-height: 8em;
+	position: absolute;
+	text-align: center;
+	width: 100%;
+}
+
+#footer a {
+	-moz-transition: border-color 0.2s ease-in-out;
+	-webkit-transition: border-color 0.2s ease-in-out;
+	-o-transition: border-color 0.2s ease-in-out;
+	-ms-transition: border-color 0.2s ease-in-out;
+	transition: border-color 0.2s ease-in-out;
+	border-bottom: dotted 1px;
+	color: inherit;
+	outline: 0;
+	text-decoration: none;
+}
+
+#footer a:hover {
+	border-color: transparent;
+}
