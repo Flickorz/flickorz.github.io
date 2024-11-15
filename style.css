@@ -41,6 +41,7 @@ body {
 }
 
 #mainbox a {
+	color: #ffffff;
 	font-size: 15px;
 	opacity: 0.75;
 	text-decoration: none;
