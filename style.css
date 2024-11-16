@@ -50,8 +50,8 @@ body {
 */
 
 .links {
-    display: flex;
-    padding: 6px 4px;
+    display: flexbox;
+    padding: 4px 4px;
     justify-content: center;
     flex-direction: row;
     gap: 15px;
@@ -59,7 +59,8 @@ body {
 
 .link {
     display: inline-block;
-    padding: 6px 12px;
+    margin: 3px;
+    padding: 6px 10px;
     font-size: 14px;
     text-shadow: #222222 1px 0 3px;
     color: #F2F4F3;
