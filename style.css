@@ -16,11 +16,18 @@ body {
     margin: 0;
 }
 
+@-moz-keyframes fade { 0% { opacity: 0; } 100% { opacity: 1; } }
+@-webkit-keyframes fade { 0% { opacity: 0; } 100% { opacity: 1; } }
+@-o-keyframes fade { 0% { opacity: 0; } 100% { opacity: 1; } }
+@-ms-keyframes fade { 0% { opacity: 0; } 100% { opacity: 1; } }
 @keyframes fade { 0% { opacity: 0; } 100% { opacity: 1; } }
 
 .container {
-    animation-name: fade;
-    animation-duration: 6s;
+    -moz-animation: fade 6s;
+	-webkit-animation: fade 6s;
+	-o-animation: fade 6s;
+	-ms-animation: fade 6s;
+    animation: fade 6s;
     text-align: center;
     width: 90%;
     max-width: 400px;
