@@ -41,6 +41,17 @@ body {
     margin-bottom: 20px;
 }
 
+.avatar {
+    width: 30%;
+    margin-bottom: 10px;
+    -webkit-border-radius: 8%;
+    -moz-border-radius: 8%;
+    border-radius: 8%;
+    -webkit-box-shadow: 0 0 0 0px rgba(155, 155, 155, 0.21), 0 0 0 5px #505050, 0 2px 5px 4px rgba(0,0,0,.2);
+    -moz-box-shadow: 0 0 0 0px rgba(155, 155, 155, 0.21), 0 0 0 5px #505050, 0 2px 5px 4px rgba(0,0,0,.2);
+    box-shadow: 0 0 0 0px rgba(129, 129, 129, 0.21), 0 0 0 5px #505050, 0 2px 5px 4px rgba(0,0,0,.2);
+}
+
 .flickorzbanner {
     width: 100%;
     margin-bottom: 10px;
