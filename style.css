@@ -52,6 +52,10 @@ body {
     box-shadow: 0 0 0 0px rgba(129, 129, 129, 0.21), 0 0 0 5px #505050, 0 2px 5px 4px rgba(0,0,0,.2);
 }
 
+.avatar:hover {
+    content: url("images/avatarhover.png");
+}
+
 .flickorzbanner {
     width: 100%;
     margin-bottom: 10px;
