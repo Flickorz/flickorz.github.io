@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="3d Artwork, Blender, Photoshop, Average Gamer">
+	<meta name="keywords" content="3d artwork, gaming, blender, 3d">
+    <title>Flickorz - Collections</title>
+    <link rel="stylesheet" href="collectionstyle.css">
+</head>
+<body>
+    <main>
+    <header>
+        <h1>3D Art Collections</h1>
+        <input type="text" id="search-box" placeholder="Search items... (Example: #001)" oninput="filterItems()">
+    </header>
+    
+<!-- TEMPLATE
+
+        <section class="item" id="item-000">
+            <h2>#000</h2>
+            <button class="toggle-btn" onclick="toggleDescription(this)">Description</button>
+            <div class="description-container">
+                
+                <p class="description">Description for collectible.</p>
+                
+                <img src="IMAGE URL" alt="#000" class="description-image">
+                
+            </div>
+            <div class="links">
+                <a href="https://www.artstation.com/" target="_blank">ArtStation</a>
+                <a href="https://www.youtube.com/" target="_blank">Youtube</a>
+                <a href="https://www.instagram.com/" target="_blank">Instagram</a>
+                <a href="https://bsky.app/" target="_blank">BlueSky</a>
+                <a href="https://www.tiktok.com/" target="_blank">Tiktok</a>
+            </div>
+        </section>
+
+-->
+        <section class="item" id="item-000">
+            <h2>#000</h2>
+            <button class="toggle-btn" onclick="toggleDescription(this)">Description</button>
+            <div class="description-container">
+                
+                <p class="description">First test and start of a collection including a character that will be used through-out. Block of wood, grumpy face.</p>
+                
+                <img src="https://cdna.artstation.com/p/assets/images/images/081/969/438/large/flickorz-001-wpsoverlay.jpg?1731703526" alt="#000" class="description-image">
+                
+            </div>
+            <div class="links">
+                <a href="https://www.artstation.com/artwork/Gvk4wz" target="_blank">ArtStation</a>
+                <a href="https://www.youtube.com/shorts/LIXtXo37v7o" target="_blank">Youtube</a>
+                <a href="https://www.instagram.com/flickorz/p/DCZ6lCtR-y7?img_index=1" target="_blank">Instagram</a>
+                <a href="https://bsky.app/profile/flickorz.bsky.social/post/3laz7oroy4k23" target="_blank">BlueSky</a>
+                <a href="https://www.tiktok.com/@flickorz/video/7437604031142448417" target="_blank">Tiktok</a>
+            </div>
+        </section>
+        <section class="item" id="item-001">
+            <h2>#001</h2>
+            <button class="toggle-btn" onclick="toggleDescription(this)">Description</button>
+            <div class="description-container">
+                
+                <p class="description">Description for collectible. tea</p>
+                
+                <img src="/" alt="#001" class="description-image">
+                
+            </div>
+            <div class="links">
+                <a href="https://www.artstation.com/" target="_blank">ArtStation</a>
+                <a href="https://www.youtube.com/" target="_blank">Youtube</a>
+                <a href="https://www.instagram.com/" target="_blank">Instagram</a>
+                <a href="https://bsky.app/" target="_blank">BlueSky</a>
+                <a href="https://www.tiktok.com/" target="_blank">Tiktok</a>
+            </div>
+        </section>
+        <section class="item" id="item-000">
+            <h2>#000</h2>
+            <button class="toggle-btn" onclick="toggleDescription(this)">Description</button>
+            <div class="description-container">
+                
+                <p class="description">Description for collectible.</p>
+                
+                <img src="IMAGE URL" alt="#000" class="description-image">
+                
+            </div>
+            <div class="links">
+                <a href="https://www.artstation.com/" target="_blank">ArtStation</a>
+                <a href="https://www.youtube.com/" target="_blank">Youtube</a>
+                <a href="https://www.instagram.com/" target="_blank">Instagram</a>
+                <a href="https://bsky.app/" target="_blank">BlueSky</a>
+                <a href="https://www.tiktok.com/" target="_blank">Tiktok</a>
+            </div>
+        </section>
+        <!-- Add more items as needed -->
+    </main>
+    <script>
+        function filterItems() {
+            const searchQuery = document.getElementById('search-box').value.toLowerCase();
+            const items = document.querySelectorAll('.item');
+            items.forEach(item => {
+                const description = item.querySelector('.description').textContent.toLowerCase();
+                const title = item.querySelector('h2').textContent.toLowerCase();
+                if (description.includes(searchQuery) || title.includes(searchQuery)) {
+                    item.style.display = '';
+                } else {
+                    item.style.display = 'none';
+                }
+            });
+        }
+
+        function toggleDescription(button) {
+            const container = button.nextElementSibling;
+            container.classList.toggle('collapsed');
+        }
+    </script>
+</body>
+</html>
