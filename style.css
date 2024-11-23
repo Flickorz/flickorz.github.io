@@ -53,7 +53,7 @@ body {
 }
 
 .avatar:hover {
-    content: url("images/avatarhover.png");
+    content: url("/images/avatarhover.png");
 }
 
 .flickorzbanner {
