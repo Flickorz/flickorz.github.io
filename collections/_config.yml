@@ -1,10 +1,10 @@
 
-title: My Jekyll Site
-description: A site built with Jekyll
-baseurl: ""  # Leave empty for GitHub Pages
-url: "https://<your-github-username>.github.io"
+title: Flickorz 3D Collections
+description: Flickorz 3D Collections - Art work, arttoy made in Blender
+baseurl: "/collections"  # Set the baseurl to the subdirectory
+url: "https://flickorz.github.io"  # The main domain for your site
 markdown: kramdown
-theme: minima  # GitHub Pages-compatible theme
+theme: minima
 plugins:
   - jekyll-feed
   - jekyll-sitemap
