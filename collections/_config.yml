@@ -4,7 +4,7 @@ description: Flickorz 3D Collections - Art work, arttoy made in Blender
 baseurl: "/collections"  # Set the baseurl to the subdirectory
 url: "https://flickorz.github.io"  # The main domain for your site
 markdown: kramdown
-theme: minima
+theme: jekyll-theme-chirpy
 plugins:
   - jekyll-feed
   - jekyll-sitemap
