@@ -1,15 +1,17 @@
 # Site settings
-title: "Flickorz 3D Collections"
-description: "Flickorz 3D Limited Edition Collections - Blender"
-baseurl: "/collections" # Your subpath
-url: "https://flickorz.github.io"
+title: "My Jekyll Blog"
+description: "A blog powered by Jekyll and Chirpy"
+baseurl: "/collections"  # Subdirectory path
+url: "https://flickorz.github.io"  # Main GitHub Pages URL
 
 # Theme
 theme: jekyll-theme-chirpy
 
-# Build settings
+# Markdown and highlighting
 markdown: kramdown
 highlighter: rouge
+
+# Plugins required by Chirpy
 plugins:
   - jekyll-feed
   - jekyll-sitemap
