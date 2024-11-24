@@ -1,0 +1,10 @@
+
+title: My Jekyll Site
+description: A site built with Jekyll
+baseurl: ""  # Leave empty for GitHub Pages
+url: "https://<your-github-username>.github.io"
+markdown: kramdown
+theme: minima  # GitHub Pages-compatible theme
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
